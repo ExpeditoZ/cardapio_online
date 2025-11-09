@@ -59,9 +59,9 @@ export const restaurants = [
         subtitle: "4 fatias / 1 sabor",
         count: 3,
         items: [
-          { id: "pz-p-mussarela", name: "Mussarela", price: 24.0, img: withBase("assets/restaurants/bella-pizza/items/p-mussarela.jpg") },
-          { id: "pz-p-calabresa", name: "Calabresa", price: 26.0, img: withBase("assets/restaurants/bella-pizza/items/p-calabresa.jpg") },
-          { id: "pz-p-frango", name: "Frango", price: 27.0, img: withBase("assets/restaurants/bella-pizza/items/p-frango.jpg") }
+          { id: "pz-p-mussarela", name: "Mussarela", price: 24.0, img: withBase("assets/restaurants/bella-pizza/items/mussarela.jpg") },
+          { id: "pz-p-calabresa", name: "Calabresa", price: 26.0, img: withBase("assets/restaurants/bella-pizza/items/calabresa.jpg") },
+          { id: "pz-p-frango", name: "Frango", price: 27.0, img: withBase("assets/restaurants/bella-pizza/items/frango.jpg") }
         ]
       },
       {
@@ -70,9 +70,9 @@ export const restaurants = [
         subtitle: "6 fatias / até 2 sabores",
         count: 3,
         items: [
-          { id: "pz-m-mussarela", name: "Mussarela", price: 32.0, img: withBase("assets/restaurants/bella-pizza/items/m-mussarela.jpg") },
-          { id: "pz-m-calabresa", name: "Calabresa", price: 34.0, img: withBase("assets/restaurants/bella-pizza/items/m-calabresa.jpg") },
-          { id: "pz-m-frango", name: "Frango c/ Catupiry", price: 36.0, img: withBase("assets/restaurants/bella-pizza/items/m-frango.jpg") }
+          { id: "pz-m-mussarela", name: "Mussarela", price: 32.0, img: withBase("assets/restaurants/bella-pizza/items/mussarela.jpg") },
+          { id: "pz-m-calabresa", name: "Calabresa", price: 34.0, img: withBase("assets/restaurants/bella-pizza/items/calabresa.jpg") },
+          { id: "pz-m-frango", name: "Frango c/ Catupiry", price: 36.0, img: withBase("assets/restaurants/bella-pizza/items/frango.jpg") }
         ]
       },
       {
@@ -81,20 +81,9 @@ export const restaurants = [
         subtitle: "8 fatias / até 3 sabores",
         count: 3,
         items: [
-          { id: "pz-g-marg", name: "Marguerita", price: 44.0, img: withBase("assets/restaurants/bella-pizza/items/g-marg.jpg") },
-          { id: "pz-g-quatroqueijos", name: "Quatro Queijos", price: 46.0, img: withBase("assets/restaurants/bella-pizza/items/g-quatroqueijos.jpg") },
-          { id: "pz-g-portuguesa", name: "Portuguesa", price: 46.0, img: withBase("assets/restaurants/bella-pizza/items/g-portuguesa.jpg") }
-        ]
-      },
-      {
-        id: "pizza-gg",
-        title: "Pizza GG",
-        subtitle: "12 fatias / até 4 sabores",
-        count: 3,
-        items: [
-          { id: "pz-gg-calabresa", name: "Calabresa", price: 58.0, img: withBase("assets/restaurants/bella-pizza/items/gg-calabresa.jpg") },
-          { id: "pz-gg-frango", name: "Frango c/ Catupiry", price: 60.0, img: withBase("assets/restaurants/bella-pizza/items/gg-frango.jpg") },
-          { id: "pz-gg-bacon", name: "Bacon Lovers", price: 62.0, img: withBase("assets/restaurants/bella-pizza/items/gg-bacon.jpg") }
+          { id: "pz-g-marg", name: "Marguerita", price: 44.0, img: withBase("assets/restaurants/bella-pizza/items/marguerita.jpg") },
+          { id: "pz-g-quatroqueijos", name: "Quatro Queijos", price: 46.0, img: withBase("assets/restaurants/bella-pizza/items/quatroqueijos.jpg") },
+          { id: "pz-g-portuguesa", name: "Portuguesa", price: 46.0, img: withBase("assets/restaurants/bella-pizza/items/portuguesa.jpg") }
         ]
       },
       {
