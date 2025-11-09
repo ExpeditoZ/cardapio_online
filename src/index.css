@@ -1,0 +1,19 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: #0a0a0b; }
+
+html, body, #root { height: 100%; }
+
+body {
+  background: var(--bg);
+}
+.neon-border { box-shadow: 0 0 0 1px rgba(122,60,255,0.35), inset 0 0 0 1px rgba(255,62,165,0.35); }
+.glass { background: rgba(255,255,255,0.04); backdrop-filter: blur(10px); }
+.container-pad { @apply max-w-5xl mx-auto px-3 sm:px-4; }
+.touch-gap { -webkit-tap-highlight-color: transparent; }
+
+@keyframes pop {0%{transform:scale(1)}40%{transform:scale(1.08)}100%{transform:scale(1)}}
+.btn-pop{animation:pop .25s ease-in-out;}
