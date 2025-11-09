@@ -4,5 +4,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/cardapio_online/',
-  build: { outDir: 'docs' }
+  build: {
+    outDir: 'docs',
+    emptyOutDir: true
+  }
 })
