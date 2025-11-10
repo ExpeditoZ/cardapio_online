@@ -1,3 +1,8 @@
+# 🚧 *Projeto em Construção* — Cardápio Online 🍽️  
+Este projeto ainda está em desenvolvimento ativo. Novas telas, ajustes visuais e melhorias estruturais serão adicionadas ao longo do tempo.
+
+---
+
 # 🍽️ Cardápio Online — Aplicação de Catálogo de Restaurantes
 
 Este projeto apresenta um cardápio digital completo, desenvolvido com HTML, CSS e JavaScript, focado em organização, responsividade e carregamento dinâmico de conteúdo.  
@@ -69,5 +74,5 @@ Acesse o projeto online em:
 ## 📌 Observações
 
 Este projeto foi revisado para funcionar perfeitamente no GitHub Pages.  
-As imagens foram reorganizadas, os caminhos corrigidos e a estrutura do Vite configurada para deploy estável.  
+As imagens foram reorganizadas, os caminhos corrigidos e a estrutura do Vite configurada para um deploy estável.  
 Comentários no código são curtos e objetivos, apenas onde realmente necessário, mantendo um padrão limpo e profissional.
