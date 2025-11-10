@@ -1,10 +1,11 @@
-// ✅ Detecta automaticamente o base path (mesmo no GitHub Pages)
+// ✅ Função que ajusta automaticamente o caminho base (GitHub Pages)
 const withBase = (path) => {
-  const base = window.location.pathname.includes("/cardapio_online/")
-    ? "/cardapio_online/"
-    : "/";
-  return `${base}${path}`;
+  const pathParts = window.location.pathname.split("/").filter(Boolean);
+  const repo = pathParts[0] || "restaurant"; // “restaurant” como fallback
+  const base = `/${repo}/`;
+  return `${base}${path}`.replace(/\/+/g, "/");
 };
+
 
 export const restaurants = [
   // 🍔 HAMBURGUERIA
@@ -96,6 +97,39 @@ export const restaurants = [
         items: [
           { id: "suco-laranja", name: "Suco de Laranja 300ml", price: 8.0, img: withBase("assets/restaurants/bella-pizza/items/suco.jpg") },
           { id: "refri-1l", name: "Refrigerante 1L", price: 10.0, img: withBase("assets/restaurants/bella-pizza/items/refri.jpg") }
+        ]
+      }
+    ]
+  },
+
+  // 🍣 SUSHI BAR
+  {
+    id: "sushinova",
+    type: "Sushi Bar",
+    name: "Sushinova",
+    banner: withBase("assets/restaurants/sushinova/banner.jpg"),
+    logo: withBase("assets/restaurants/sushinova/logo.jpg"),
+    address: "Rua do Sol, 77 - Fátima",
+    phone: "(88) 90000-0000",
+    instagram: "@sushinova",
+    categories: [
+      {
+        id: "combos",
+        title: "Combos",
+        subtitle: "Perfeitos para compartilhar",
+        count: 2,
+        items: [
+          { id: "combo20", name: "Combo 20 peças", price: 42.0, img: withBase("assets/restaurants/sushinova/items/combo20.jpg") },
+          { id: "combo40", name: "Combo 40 peças", price: 79.0, img: withBase("assets/restaurants/sushinova/items/combo40.jpg") }
+        ]
+      },
+      {
+        id: "temakis",
+        title: "Temakis",
+        subtitle: "Grandes e saborosos",
+        count: 1,
+        items: [
+          { id: "temaki-salmao", name: "Temaki de Salmão", price: 28.0, img: withBase("assets/restaurants/sushinova/items/temaki.jpg") }
         ]
       }
     ]
