@@ -5,6 +5,13 @@ O layout é simples, moderno e totalmente funcional no GitHub Pages.
 
 ---
 
+## 🌐 Deploy
+
+Acesse o projeto online em:  
+👉 **https://expeditoz.github.io/cardapio_online/**
+
+---
+
 ## 🚀 Tecnologias Utilizadas
 
 ### **HTML5**
@@ -64,10 +71,3 @@ O layout é simples, moderno e totalmente funcional no GitHub Pages.
 Este projeto foi revisado para funcionar perfeitamente no GitHub Pages.  
 As imagens foram reorganizadas, os caminhos corrigidos e a estrutura do Vite configurada para deploy estável.  
 Comentários no código são curtos e objetivos, apenas onde realmente necessário, mantendo um padrão limpo e profissional.
-
----
-
-## 🌐 Deploy
-
-Acesse o projeto online em:  
-👉 **https://expeditoz.github.io/cardapio_online/**
