@@ -1,8 +1,6 @@
-// ✅ Ajusta automaticamente o caminho das imagens (compatível com GitHub Pages)
+// ✅ Ajusta automaticamente o caminho das imagens
 const withBase = (path) => {
-  const pathname = window.location.pathname;
-  const repo = pathname.split("/")[1]; // obtém o nome do repositório (ex: 'cardapio_online')
-  const base = `${window.location.origin}/${repo}/`;
+  const base = `${window.location.origin}/cardapio_online/`;
   return `${base}${path}`;
 };
 
